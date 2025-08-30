@@ -5,8 +5,229 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro do usuário</title>
     <link rel="stylesheet" href="trabalho.html">
+    <style>
+        *{
+            margin: 0%;
+        }
+        img{
+            position: absolute;
+            width: 100%;
+            height: 100vh;
+        }
+        .box{
+            width: 35%;
+            height: 99vh;
+            background-color: black;
+            position: absolute;
+            left: 2%;
+            border-radius: 10px;
+            color: gray;
+            border: 5px solid rgb(45, 44, 44);
+           
+        }
+        h1{
+            color: white;
+            font-size: 60px;
+            position: absolute;
+            left: 20%;
+            top: 15%;
+        }
+               
+         .nome{
+            color: white;
+            position: absolute;
+            right: 15%;
+            height: 20vh;
+            top: 32%; 
+            width: 70%;
+            font-size: 20px;
+
+         }    
+         .nome1{
+            width: 100%;
+            height: 5vh;
+            color: gray;
+            background-color: black;
+            font-size: 20px;
+             border: color gray 3px;
+            border-radius : 5px ;  
+         }
+         
+         .email{
+             color:white;
+            position: absolute;
+            right: 15%;
+            height: 20vh;
+            top: 42%; 
+            width: 70%;
+            font-size: 20px;
+
+         }
+
+         .email1{
+            width: 100%;
+            height: 5vh;
+            color: gray;
+            background-color: black;
+            font-size: 20px;
+             border: color gray 3px;
+            border-radius : 5px ;
+           
+
+         }
+         .senha{
+              color: white;
+            position: absolute;
+            right: 15%;
+            height: 20vh;
+            top: 52%; 
+            width: 70%;
+             font-size: 20px;
+         }
+
+         .senha1{
+             width: 100%;
+            height: 5vh;
+            color: gray;
+            background-color: black;
+            font-size: 20px;
+             border: color gray 0px;
+            border-radius : 5px ;
+           
+
+         }
+         .conf{
+             color: white;
+            position: absolute;
+            right: 15%;
+            height: 20vh;
+            top: 62%; 
+            width: 70%;
+             font-size: 20px;
+         }
+
+         .conf1{
+             width: 100%;
+            height: 5vh;
+            color: gray;
+            background-color: black;
+            font-size: 20px;
+            border: color rgb(81, 70, 70) 3px;
+            border-radius : 10px ;     
+         }
+         .cad{
+            
+            position: absolute;
+            right: 15%;
+            height: 20vh;
+            top: 75%; 
+            width: 70%;
+           
+           
+         }
+         .butcad{
+            background-color: yellow;
+            height: 50px;
+            width: 101%;
+            border: 10px solid yellow;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius : 5px ;
+            
+
+         }
+         button:hover{
+            text-decoration: underline;
+         }
+
+         h3{
+            position: absolute;
+            left: 12%;
+            top: 85%;
+            color: white;
+            font-size: 25px;
+         }
+
+         .botaoentrar{
+            position: absolute;
+            color: yellow;
+            left: 25%;
+            top:85%;
+            font-size: 25px;   
+         }
+         #entrar{
+            color: yellow;
+         }
+         a{   
+            color: white;
+            text-decoration: none;
+            margin: 0 40PX 0 0;
+         }
+         a:hover{
+            text-decoration: underline;
+         }
+         .menu{
+           position: fixed;
+           z-index: 2;
+          width: 100%;
+          height: 2vh;
+          text-align: end;
+          padding: 10px; 
+              
+         }         
+     
+  
+    </style>
 </head>
 <body>
+    <img src="https://images6.alphacoders.com/505/thumb-1920-505416.jpg"alt="">
+
+     <div class="box">
+        <h1>
+            Cadastrar-se
+        </h1>
+         
+         <label class="nome">Nome <br> 
+            <input class="nome1" placeholder="Digite seu nome" type="text"nome="Digite seu nome">
+
+         </label>
+
+         <label class="email">E-mail <br> 
+            <input class="email1" placeholder="Digite seu E-mail" type="email"nome="Digite seu E-mail">
+
+         </label>
+
+          <label class="senha">Senha <br> 
+            <input class="senha1" placeholder="Digite sua senha" type="password"nome="Digite sua senha">
+
+         </label>
+
+         <label class="conf">Confirme sua senha <br> 
+            <input class="conf1" placeholder="Confirme sua senha" type="password"nome="Confirme sua senha">
+
+         </label>
+        <div class="cad">
+            <a  href="#"><button class="butcad">CADASTRAR</button>
+         </a>
+        </div>
+     </div>
+
+     <h3>Já tem uma conta?</h3>
+     <div class="botaoentrar">
+        <a id="entrar" href="">Entrar</a>
+
+     </div>
+
+    <div class="menu">
+        <a href="trabalho.html">INICIO</a>
+        <a href="login.html">LOGIN</a>
+        <a href="trabalho.html#page2">SOBRE NOS</a>
+        <a href="">GAME</a>
+        <a href="">NOTÍCIAS</a>
+        <a href="">COMUNIDADE</a>
+        <a href="">CONTATOS</a>
+    </div>       
     
 </body>
+
 </html>
