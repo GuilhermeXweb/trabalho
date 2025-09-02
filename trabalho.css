@@ -51,6 +51,7 @@
     a:hover{
      text-decoration: underline;
      color: rgb(212, 5, 85);
+    
     }
 
     .menu{
@@ -106,18 +107,18 @@
      font-size: 40px;
      font-family: "Tektur", sans-serif;
      font-optical-sizing: auto;
-     font-weight:500px ;
+     font-weight:600px ;
      font-style: normal;
      font-variation-settings: "wdth" 100;  
      }
      button{
      border: 5px solid rgb(195, 40, 175);
      border-radius: 20px;
-     background-color: rgb(12, 134, 95);
+     background-color: rgb(9, 223, 155);
      width: 200px;
      height: 80px;
     color:black
       }
     button:hover{
-        background-color: rgb(0, 170, 170);
+        background-color: rgb(195, 40, 175);
     }
