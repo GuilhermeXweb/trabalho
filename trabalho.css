@@ -117,8 +117,61 @@
      background-color: rgb(9, 223, 155);
      width: 200px;
      height: 80px;
-    color:black
-      }
-    button:hover{
-        background-color: rgb(195, 40, 175);
+     color:black
     }
+
+     button:hover{
+     background-color: rgb(195, 40, 175);
+    }
+
+    .page3{
+      background-color: #040314;
+      display: grid;
+      grid-template-columns: 2fr;
+      grid-template-rows: 2fr;
+    
+
+    }
+  
+    .di{
+      width: 20%;
+      height: 100vh;
+      background-color: #19114d ;
+    }
+     
+    input{
+      position: absolute;
+      width: 40%;
+      height: 5vh;
+      top: 5%;
+      left: 25%;
+      border: #040314 2px;
+      border-radius: 5px;
+
+
+    }
+      
+    
+      
+    
+    
+
+    .aç{
+      position: absolute;
+      top:10%;
+      left: 10%;
+      width: 20%;
+    }
+
+    .lb{
+      position: absolute;
+      top:10%;
+      left: 10%;
+      width: 20%;
+    }
+
+
+   
+    
+
+    
