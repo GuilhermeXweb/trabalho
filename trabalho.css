@@ -69,7 +69,7 @@ position: absolute;
 color: white;
 font-size: 40px;
 left: 1%;
-top: 5%;
+top: -30%;
 font-family: "Tektur", sans-serif;
 font-optical-sizing: auto;
 font-weight:600px ;
@@ -127,7 +127,7 @@ background-color: rgb(195, 40, 175);
 #page3{
 display: grid;
 grid-template-columns: 20% 80%;
-grid-template-rows: 50% 50%;
+grid-template-rows: 50%  50%;
 grid-template-areas: 
 "cel1 cel2"
 "cel1 cel2";
@@ -158,6 +158,91 @@ background-color: #040314;
 grid-area: cel2;
       
 }
+
+
+
+
+.menuop{
+display: grid;
+grid-area: cel1;
+justify-content: center;
+color: white;
+font-size:50px ;
+margin-top: 40%;
+
+font-family: "Tektur", sans-serif;
+font-optical-sizing: auto;
+font-weight:600px ;
+font-style: normal;
+font-variation-settings: "wdth" 100;
+}
+
+.game1{
+display: grid;
+grid-area: cel2;
+margin-top: 10%;
+}
+
+#tgame1{
+display: flex;
+grid-row: 1;
+margin-left: 22%;
+margin-top: 1%;
+color: white;
+font-size: 40px;
+
+font-family: "Tektur", sans-serif;
+font-optical-sizing: auto;
+font-weight:600px ;
+font-style: normal;
+font-variation-settings: "wdth" 100;
+}
+
+.game2{
+display: grid;
+grid-area: cel2;
+margin-top: 260px;
+
+}
+
+#tgame2{
+display: flex;
+grid-row: 2;
+color: white;
+margin-left: 22%;
+margin-top: 2%;
+font-size: 40px;
+
+font-family: "Tektur", sans-serif;
+font-optical-sizing: auto;
+font-weight:600px ;
+font-style: normal;
+font-variation-settings: "wdth" 100;
+
+
+}
+
+input{
+background-image: url(search.png);
+background-position: 3px;
+padding-left: 35px;
+background-size: 20px;
+background-repeat: no-repeat;
+border: black 5px;
+border-radius: 2px;
+width: 30%;
+height: 3vh;
+display: grid;
+grid-column: 2;
+justify-items: start;
+margin-top: 3%;
+margin-left: 2%;
+
+
+
+
+}
+
 
 
     
