@@ -127,16 +127,15 @@ background-color: rgb(195, 40, 175);
 #page3{
 display: grid;
 grid-template-columns: 20% 80%;
-grid-template-rows: 50%  50%;
+grid-template-rows: 50vh  50vh;
 grid-template-areas: 
 "cel1 cel2"
 "cel1 cel2";
 
+
 }
 
-h1{
-margin-top: 20%;
-}
+
 
 #fundo1{
 font-family: "Tektur", sans-serif;
@@ -150,25 +149,31 @@ display: flex;
 
 background-color: #19114d;
 grid-area: cel1;
-color: white;
+color: black;
 }
+
 
 #fundo2{
 background-color: #040314;  
 grid-area: cel2;
+height: 100vh;
+width: 100%;
       
 }
-
-
+#mg{
+margin-top: 20%;
+}
 
 
 .menuop{
 display: grid;
+grid-template-rows: 5vh 5vh 5vh 5vh;
 grid-area: cel1;
 justify-content: center;
-color: white;
+color: black;
 font-size:50px ;
 margin-top: 40%;
+margin-left: 15%;
 
 font-family: "Tektur", sans-serif;
 font-optical-sizing: auto;
@@ -177,41 +182,50 @@ font-style: normal;
 font-variation-settings: "wdth" 100;
 }
 
-.game1{
-display: grid;
-grid-area: cel2;
-margin-top: 10%;
+#a1{
+color: black;
+background-color: rgba(5, 217, 245, 0.897);
+width: 100%;
+height: 25px;
+font-size: 20px
+
+
+
 }
+
+
 
 #tgame1{
 display: flex;
-grid-row: 1;
-margin-left: 22%;
-margin-top: 1%;
+
 color: white;
-font-size: 40px;
+font-size: 30px;
+grid-column: 1/3;
+grid-row: 1;
+margin-left:25% ;
+
+
 
 font-family: "Tektur", sans-serif;
 font-optical-sizing: auto;
 font-weight:600px ;
 font-style: normal;
 font-variation-settings: "wdth" 100;
-}
-
-.game2{
-display: grid;
-grid-area: cel2;
-margin-top: 260px;
 
 }
+
+
 
 #tgame2{
 display: flex;
 grid-row: 2;
+grid-column: 2;
 color: white;
-margin-left: 22%;
-margin-top: 2%;
-font-size: 40px;
+align-self: center;
+justify-self: center;
+
+
+font-size: 30px;
 
 font-family: "Tektur", sans-serif;
 font-optical-sizing: auto;
@@ -223,6 +237,7 @@ font-variation-settings: "wdth" 100;
 }
 
 input{
+display: inline-block;
 background-image: url(search.png);
 background-position: 3px;
 padding-left: 35px;
@@ -231,23 +246,43 @@ background-repeat: no-repeat;
 border: black 5px;
 border-radius: 2px;
 width: 30%;
-height: 3vh;
-display: grid;
+height: 5vh;
+
 grid-column: 2;
 justify-items: start;
-margin-top: 3%;
-margin-left: 2%;
 
 
 
 
 }
 
+#item1{
+  display: grid;
+  grid-row: 1/2;
+  grid-column: 2;
+  width: 100%;
+  height:50vh; 
+  
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 15vh 10vh 10vh 15vh;
+}
+#img1,#img2{
+  grid-column: 1;
+  grid-row: 1/5;
+  height:auto;
+  width:20% ;
+
+}
 
 
-    
+#item2{
+  display: grid;
+  grid-row: 2;
+  grid-column: 2;
+  width: 100%;
+  height: 50vh;
+  
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 15vh 10vh 10vh 15vh;
+}
 
-   
-    
-
-    
