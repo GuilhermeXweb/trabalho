@@ -14,11 +14,9 @@ position: relative;
 .f1{
 width: 100%;
 height: 100vh;
+position: absolute;
 }
-img{
-position: absolute;    
 
-}
 p{
 position: absolute;
 left: 5%;
@@ -30,9 +28,9 @@ font-weight:500px ;
 font-style: normal;
 font-variation-settings: "wdth" 100;
 font-size: 25px;
-    
+  
 }
-.icone{
+#icone{
 position: absolute;
 top: -13%;
 }
@@ -172,7 +170,8 @@ background-color: rgb(195, 40, 175);
   color: black;
   font-size: 50px;
   margin-top: 40%;
-  margin-left: 15%;
+  left: 5%;
+  
 
   font-family: "Tektur", sans-serif;
   font-optical-sizing: auto;
@@ -184,9 +183,15 @@ background-color: rgb(195, 40, 175);
 #a1 {
   color: black;
   background-color: rgba(5, 217, 245, 0.897);
-  width: 100%;
-  height: 25px;
-  font-size: 20px;
+  width: 78%;
+  height: 30px;
+  font-size:25px;
+
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600px;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 #tgame1,
@@ -195,31 +200,35 @@ background-color: rgb(195, 40, 175);
 #tgame1es {
   color: white;
   font-size: 30px;
-  margin-left: 25%;
+  margin-top: 5%;
+
 
   font-family: "Tektur", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600px;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+  
 }
 
-#tgame2 {
-  display: flex;
-  grid-row: 2;
-  grid-column: 2;
+#tgame2,
+#tgame2val,
+#tgame2tip,
+#tgame2es {
   color: white;
-  align-self: center;
-  justify-self: center;
-
   font-size: 30px;
+  margin-top: 5%;
+
 
   font-family: "Tektur", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600px;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+  
 }
+
+
 
 #pesquisa {
   background-image: url(search.png);
@@ -243,7 +252,7 @@ background-color: rgb(195, 40, 175);
   display: grid;
   width: 100%;
   height: 100%;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 30% 60%;
   grid-template-rows: 1fr;
   gap: 0;
   overflow: hidden;
@@ -263,22 +272,19 @@ background-color: rgb(195, 40, 175);
 #item2 > img {
   grid-column: 1 / 2;
   grid-row: 1;
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: 300px;
   object-fit: cover;
+
 }
 
-#tgame2 {
-  grid-column: 2 / 3;
-  grid-row: 1;
-  align-self: center;
-  justify-self: center;
-}
+
 #dados {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: repeat(5, 20%);
   grid-column: 2;
+  
 }
 #tgame1 {
   grid-column: 1;
@@ -300,6 +306,63 @@ background-color: rgb(195, 40, 175);
   grid-row: 4;
   width: 100%;
 }
+
+#item1 {
+  grid-column: 1/-1;
+  grid-row: 2;
+  justify-items: flex-start;
+}
+
+#item2 {
+  grid-column: 1/-1;
+  grid-row: 3;
+}
+
+#item1 > img,
+#item2 > img {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  width: auto;
+  height: 300px;
+  object-fit: cover;
+
+}
+
+
+#dados2 {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(5, 20%);
+  grid-column: 2;
+  
+}
+#tgame2 {
+  grid-column: 1;
+  grid-row: 1;
+  width: 100%;
+}
+#tgame2es {
+  grid-column: 1;
+  grid-row: 2;
+  width: 100%;
+  justify-items: center;
+}
+#tgame2tip {
+  grid-column: 1;
+  grid-row: 3;
+  width: 100%;
+}
+#tgame2val {
+  grid-column: 1;
+  grid-row: 4;
+  width: 100%;
+}
+
+#estrela{
+margin-top: 5%;
+}
+
+
 
 /*PAGINA 4*/
 
@@ -919,6 +982,7 @@ text-decoration: none;
     text-align: right;
     left: 70%;
     border-radius: 5%;
+    align-items:flex-start ;
 }
 
 .avt{
