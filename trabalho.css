@@ -719,15 +719,61 @@ text-decoration: none;
   border: #19114d 3px;
   border-radius: 5%;
   text-align: center;
+  color: white;
+
+}
+
+.ulk{
+  width: 40px;
+  height: auto;
+  position: absolute;
+  top: 80%;
+  left: 10%;
+
+}
+
+.ulkp{
+  width: 10%px;
+  font-size:20px;
+  height: auto;
+  position: absolute;
+  top: 82%;
+  left: 30%;
+
+}
+
+
+.ucp{
+    width: 10%px;
+    font-size: 20px;
+    position: absolute;
+    top: 82%;
+    left: 74%;
+
+}
+
+.uc{
+    width: 40px;
+    height: auto;
+    position: absolute;
+    top: 80%;
+    left: 60%;
 
 }
 
 .instrem{
   position: absolute;
   background-color: white;
+  height: 5vh;
+  width: auto;
   top: 0%;
   left: 40%;
   color: black;
+  background-image: url(search.png);
+  background-position: 3px;
+  padding-left: 35px;
+  background-size: 20px;
+  background-repeat: no-repeat;
 
 }
 
@@ -752,8 +798,10 @@ text-decoration: none;
   position: absolute;
   background-color: red;
   color: black;
-  top: 80%;
-  left: 40%;
+  top: 90%;
+  left: 10%;
+  width: 80%;
+  height: 5vh;
 
 }
 
@@ -844,7 +892,7 @@ text-decoration: none;
 .post{
     width: 40%;
     height: 15vh;
-    background-color: aqua;
+    background-color:#19114d;
     top:30%;
     position: absolute;
     left: 3%;
@@ -854,19 +902,16 @@ text-decoration: none;
     border-width: 20px;
     border-top: 20px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 10px 0;
     gap: 15px;
-
-   
+    
    
 }
 
 .post1{
     width: 40%;
     height: 15vh;
-    background-color: aqua;
+    background-color: #19114d;
     top:50%;
     position: absolute;
     left: 3%;
@@ -888,7 +933,7 @@ text-decoration: none;
 .post2{
     width: 40%;
     height: 15vh;
-    background-color: aqua;
+    background-color: #19114d;
     top:70%;
     position: absolute;
     left: 3%;
@@ -988,10 +1033,12 @@ text-decoration: none;
 .avt{
     width: 40px;
     border-radius: 50%;
+    
     display: flex;
     flex-direction: column;
     gap: 1px;
     position: relative;
+   
 
 }
 
@@ -1018,7 +1065,62 @@ text-decoration: none;
     width: 40%;
 }
 
+.gx{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  left: 70px;
+  top: 3px;
 
+}
+
+.gx1{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  left: 70px;
+  top: 20%;
+}
+
+.gx2{
+
+  font-size: 20px;
+  position: absolute;
+  left: 20px;
+  top: 45%;
+  font-family: unset;
+}
+
+.per{
+  position: absolute;
+  width: 40px;
+  height: auto;
+  left: 20px;
+  top: 5px;
+
+}
+
+.ctbox{
+   position: absolute;
+  width: 5%;
+  height: auto;
+  left: 72%;
+  top: 70%;
+
+}
+
+
+.ctlike{
+   position: absolute;
+  width: 4%;
+  height: auto;
+  left: 80%;
+  top: 75%;
+
+}
+.hchat{
+  color: white;
+}
 
 
 
