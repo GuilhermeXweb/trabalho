@@ -359,7 +359,8 @@ background-color: rgb(195, 40, 175);
 }
 
 #estrela{
-margin-top: 5%;
+
+justify-self: start;
 }
 
 
@@ -904,6 +905,12 @@ text-decoration: none;
     display: flex;
     margin: 10px 0;
     gap: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:"wdth"100;
+    
     
    
 }
@@ -925,6 +932,11 @@ text-decoration: none;
     justify-content: center;
     margin: 10px 0;
     gap: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:"wdth"100;
 
    
    
@@ -947,12 +959,17 @@ text-decoration: none;
     justify-content: center;
     margin: 10px 0;
     gap: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:"wdth"100;
 
 }
 
 .topico{
     width: 20%;
-    height: 25vh;
+    height: 30vh;
     background-color: #0b0825;
     top:10%;
     left: 75%;
@@ -965,6 +982,11 @@ text-decoration: none;
     gap: 15px;
     position: absolute;
     text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:"wdth"100;
 
 }
 
@@ -1024,19 +1046,34 @@ text-decoration: none;
     width: 25%;
     height: 40vh;
     top: 50%;
-    text-align: right;
+    text-align: center;
     left: 70%;
     border-radius: 5%;
     align-items:flex-start ;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:"wdth"100;
+}
+.user>div{
+  width: 100%;
+  display: flex;
+flex-direction: row;
+align-items: start;
+justify-content: flex-start;
+}
+.user>div>p{
+ text-align: center;
 }
 
 .avt{
-    width: 40px;
+    width: 30px;
     border-radius: 50%;
-    
+    padding: 10px;
     display: flex;
     flex-direction: column;
-    gap: 1px;
+    gap: 5px;
     position: relative;
    
 
@@ -1047,6 +1084,13 @@ text-decoration: none;
     flex-direction: column;
     gap: 1px;
     position: relative;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+    font-variation-settings:"wdth"100;
+    text-align: center;
+    font-size: 15px;
 
    
     
@@ -1062,33 +1106,50 @@ text-decoration: none;
     border: transparent;
     border-radius: 5px;
     height: auto;
-    width: 40%;
+    width: 45%;
+    color: white;
+    
 }
 
 .gx{
   color: white;
-  font-size: 20px;
+  font-size: 19px;
   position: absolute;
   left: 70px;
   top: 3px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:"wdth"100;
 
 }
 
 .gx1{
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   position: absolute;
   left: 70px;
-  top: 20%;
+  top: 25%;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:"wdth"100;
 }
 
 .gx2{
 
-  font-size: 20px;
+  font-size: 13px;
   position: absolute;
-  left: 20px;
-  top: 45%;
+  left: 70px;
+  top: 55%;
   font-family: unset;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:"wdth"100;
 }
 
 .per{
@@ -1106,6 +1167,12 @@ text-decoration: none;
   height: auto;
   left: 72%;
   top: 70%;
+  
+font-family: "Open Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+font-variation-settings:"wdth"100;
 
 }
 
@@ -1120,8 +1187,12 @@ text-decoration: none;
 }
 .hchat{
   color: white;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:"wdth"100;
 }
-
 
 
 
