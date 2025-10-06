@@ -52,7 +52,7 @@ font-size: 15px;
 
 a:hover{
 text-decoration: underline;
-color: rgb(212, 5, 85);
+background-color: red;
 }
 
 .menu{
@@ -111,18 +111,18 @@ font-weight:600px ;
 font-style: normal;
 font-variation-settings: "wdth" 100;  
 
-border: 5px solid rgb(195, 40, 175);
-border-radius: 20px;
-background-color: rgb(9, 223, 155);
+border: 10px solid black;
+border-radius: 15px;
+background-color: red;
 width: 200px;
 height: 80px;
-color:black
+color:white
 }
 
 
 
 .login:hover{
-background-color: rgb(195, 40, 175);
+background-color:red;
 }
 
 
@@ -362,6 +362,35 @@ background-color: rgb(195, 40, 175);
 
 justify-self: start;
 }
+
+#plataformas{
+position: absolute;
+color: black;
+font-size: 20px;
+top: 50%;
+left: 2%;
+text-decoration: underline;
+
+font-family: "Tektur", sans-serif;
+font-optical-sizing: auto;
+font-weight: 600px;
+font-style: normal;
+font-variation-settings: "wdth" 100;
+}
+#logoplataformas{
+position: absolute;
+display: flex;
+flex-direction: column;
+gap: 1%;
+color: white;
+
+
+
+width: 50px;
+height: 50px;
+top: 60%;
+}
+
 
 
 
@@ -697,6 +726,11 @@ text-decoration: none;
   width: 100%;
   height: 100vh;
 
+}
+
+#livemp4{
+border: 10px solid red;
+border-radius: 50px;
 }
 
 .live{
