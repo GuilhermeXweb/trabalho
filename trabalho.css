@@ -52,7 +52,7 @@ font-size: 15px;
 
 a:hover{
 text-decoration: underline;
-background-color: red;
+
 }
 
 .menu{
@@ -366,7 +366,7 @@ justify-self: start;
 #plataformas{
 position: absolute;
 color: black;
-font-size: 20px;
+font-size: 30px;
 top: 50%;
 left: 2%;
 text-decoration: underline;
@@ -377,17 +377,22 @@ font-weight: 600px;
 font-style: normal;
 font-variation-settings: "wdth" 100;
 }
-#logoplataformas{
+.logoplataformas{
+margin-left: 10px;
+width: 50px;
+
+}
+.plataforma{
 position: absolute;
 display: flex;
-flex-direction: column;
+flex-direction: row;
 gap: 1%;
 color: white;
+left: 2%;
 
 
 
-width: 50px;
-height: 50px;
+
 top: 60%;
 }
 
@@ -734,12 +739,12 @@ border-radius: 50px;
 }
 
 .live{
-  width: 70%;
-  height: 80vh;
+  width: 60%;
+  height: 70vh;
   background-color: #19114d;
   border: #19114d 3px;
-  border-radius: 5%;
-  left: 3%;
+  border-radius: 50px;
+  left: 2%;
   position: absolute;
   top: 10%;
 }
@@ -751,7 +756,7 @@ border-radius: 50px;
   position: absolute;
   left: 75%;
   top: 10%;
-  border: #19114d 3px;
+  border: red solid 10px;
   border-radius: 5%;
   text-align: center;
   color: white;
@@ -1120,7 +1125,7 @@ justify-content: flex-start;
     position: relative;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
-    
+    margin-top: -18px;
     font-style: normal;
     font-variation-settings:"wdth"100;
     text-align: center;
@@ -1221,6 +1226,7 @@ font-variation-settings:"wdth"100;
 }
 .hchat{
   color: white;
+
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
