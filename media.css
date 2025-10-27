@@ -335,6 +335,91 @@ a:hover{
 text-decoration: underline;  
 }
 
+#tcomunidade{
+    font-size: 100%;
+}
+#inputcomunidade{
+    width: 30%;
+    height: 3vh;
+}
+
+.post{
+    width: 60%;
+}
+
+.per{
+    width: 10%;
+    position: absolute;
+    left: 5px;
+    top: 20%;
+
+}
+
+.gx{
+    font-size: 100%;
+}
+
+.gx1{
+    font-size: 80%;
+}
+
+.gx2{
+    font-size: 70%;
+    position: absolute;
+    left: 10px;
+}
+
+.ctbox{
+    position: absolute;
+    top: 80%;
+    left: 70%;
+}
+
+
+.ctlike{
+    position: absolute;
+    top: 83%;
+    left: 80%;
+}
+
+
+.post1{
+    width: 60%;
+}
+
+.post2{
+    width: 60%;
+}
+
+.topico{
+    width: 40%;
+    height: 35vh;
+    position: absolute;
+    left: 70%;
+}
+
+.tpa{
+    font-size: 110%;
+    padding: 2px;
+}
+
+.bt{
+    width: 60%;
+    height: 5vh;
+    gap: 3px;
+   
+   
+}
+
+
+.user{
+    width: 40%;
+    
+}
+
+
+
+
 
 }
     
