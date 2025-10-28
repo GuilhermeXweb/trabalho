@@ -3,38 +3,41 @@
         margin: 0%;
     }
     section{
-      width: 600px;        
+      width: 100%;        
       height: 100vh;
       position: relative;
 } 
        
-    .menu{
+.menu{
 
-        width:50%;
-        height: 5vh;
-        text-align: left;
-        padding: 2px;
-        
-       
-
-    }
+position: fixed;
+z-index: 0;
+background-color:rgb(22, 7, 56);
+width: 100%;
+height: 2vh;
+text-align: start;
+padding:5px;     
+}
 
 
     .f1{
         position: absolute;
-        width:200%;
+        width:100%;
         height: 100vh;
     }
     #icone{
         position: absolute;
-        width: 70%;
+        width: 90%;
         height: auto;
         top: 5%;
+        left: 1%;
     }
     
-    p{
-        font-size: 80%;
+    #txtpage1{
+        font-size: 30px;
         position: absolute;
+        width: 80%;
+        height: auto;
         left: 5%;
         top: 60%;
         color: white; 
@@ -81,6 +84,8 @@
 
     #fundo2{
         position: absolute;
+        width: 100%;
+        height: 100vh;
         
         
 
@@ -91,12 +96,13 @@
     #fundo1{
 
         position: absolute;
-      
+        width: 100%;
+        height: 100vh;
     }
 
     .corfundo{
-        width: 200%;
-        height: 200vh;
+        width: 100%;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center ;
@@ -111,8 +117,8 @@ position: absolute;
 }
 
 .imagem1{
- width: 500px;
- height: 800px;
+ width: 400px;
+ height: 600px;
  position: absolute;
  left: 5%;
  border: 5px solid red;    
@@ -124,38 +130,38 @@ position: absolute;
 }
 
 #descriçaoimagem1{
-font-size: 30px;
+font-size: 25px;
 position: absolute;
 top: 40%;
 }
 
 #desc2{
-font-size: 30px;
+font-size: 20px;
 position: absolute;
-top: 60%;
+top: 65%;
 }
 
 #desc3{
- font-size: 30px;
+ font-size: 20px;
  position: absolute;
- top: 85%;
+ top: 90%;
 }
 
 
 .imagem2{
  border: 5px solid red;      
- width: 500px;
- height: 800px;
+ width: 400px;
+ height: 600px;
  position: absolute;
- left: 100%;
- top: 15%;
+ left: 5%;
+ top: 55%;
  
 }
 
 #descriçaoimagem2{
 color: white;
 position: absolute;
-font-size: 30px; 
+font-size: 25px; 
 left: 1%;
 top: 45%;
 
@@ -169,8 +175,8 @@ font-variation-settings:"wdth"100;
 #des2{
 color: rgb(164, 164, 164);
 position: absolute;
-font-size: 30px;
-top: 60%;
+font-size: 20px;
+top:60%;
 left: 1%;
 font-family: "Open Sans", sans-serif;
 font-optical-sizing: auto;
@@ -182,7 +188,7 @@ font-variation-settings:"wdth"100;
 #des3{
 color: rgb(164, 164, 164);
 position: absolute;
-font-size: 30px;
+font-size: 20px;
 top: 80%;
 left: 1%;
 font-family: "Open Sans", sans-serif;
@@ -195,11 +201,11 @@ font-variation-settings:"wdth"100;
 
 .imagem3{
 
- width: 500px;
- height: 800px;
+ width: 400px;
+ height: 500px;
  position: absolute;
  left: 5%;
- top: -20%;
+ top: 1%;
  border: 5px solid red;
  }
 
@@ -208,9 +214,9 @@ font-variation-settings:"wdth"100;
 #descriçaoimagem3{
 color: white;
 position: absolute;
-font-size: 30px; 
+font-size: 25px; 
 left: 1%;
-top: 40%;
+top: 45%;
 
 
 
@@ -224,8 +230,8 @@ font-variation-settings:"wdth"100;
 #d1imagem3{
 color: rgb(164, 164, 164);
 position: absolute;
-font-size: 30px;
-top: 60%;
+font-size: 20px;
+top: 70%;
 left: 1%;
 font-family: "Open Sans", sans-serif;
 font-optical-sizing: auto;
@@ -236,22 +242,22 @@ font-variation-settings:"wdth"100;
 .imagem4{
 position: absolute;
 border: 5px solid red;
-top: -20%;
-left: 100%;
+top: 35%;
+left: 5%;
 background-color: #0b0825;
-width: 500px;
-height: 800px;
+width: 400px;
+height: 500px;
 }
 #imggw{
-width: 500px;
-height: 300px;
+width: 400px;
+height: 200px;
 }
 
 #d1imagem4{
 color: rgb(164, 164, 164);
 position: absolute;
-font-size: 30px;
-top: 50%;
+font-size: 20px;
+top: 60%;
 right: 5cqmin;
 font-family: "Open Sans", sans-serif;
 font-optical-sizing: auto;
@@ -263,7 +269,7 @@ font-variation-settings:"wdth"100;
 #descriçaoimagem4{
 color: white;
 position: absolute;
-font-size: 30px; 
+font-size: 25px; 
 left: 1%;
 top: 40%;
 
@@ -276,28 +282,28 @@ font-variation-settings:"wdth"100;
 }
 
 #imgtw{
-width: 500px;
-height: 300px;
+width: 400px;
+height: 200px;
 }
 
 .imagem5{
 
 position: absolute;
 left: 5%;
-top: 40%;
+top: 70%;
 border: 5px solid red;
 background-color: #0b0825;
- width: 500px;
- height: 800px;
+ width: 400px;
+ height: 450px;
 }
 
 
 #descriçaoimagem5{
 color: white;
 position: absolute;
-font-size: 30px; 
+font-size: 25px; 
 left: 1%;
-top: 40%;
+top: 45%;
 
 font-family: "Open Sans", sans-serif;
 font-optical-sizing: auto;
@@ -312,8 +318,8 @@ color: rgb(227, 11, 11);
 position: absolute;
 width: 90%;
 height: 100px;
-top: 70%;
-left: 5%;
+top: 75%;
+left: 3%;
 font-size: 150%;
 font-family: "Open Sans", sans-serif;
 font-optical-sizing: auto;
@@ -324,9 +330,9 @@ font-variation-settings:"wdth"100;
 
 #iconeyt{
 position: absolute;
-width: 100px;
-height: 100px;
-top: 55%;
+width: 50px;
+height: 50px;
+top: 63%;
 left: 1%;
 }
 
