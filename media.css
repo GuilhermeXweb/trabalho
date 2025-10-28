@@ -417,9 +417,139 @@ text-decoration: underline;
     
 }
 
+/*pagina stream*/
 
-
-
+#stream{
+  background-color: #040314;
+  width: 100%;
+  height: 100vh;
 
 }
+
+#livemp4{
+border: 10px solid red;
+border-radius: 10px;
+width: 400px;
+height: 300px;
+
+}
+
+
+.live{
+  width: 410px;
+  height: 300px;
+  background-color: #000000;
+  border-radius: 10px;
+
+  left: 20%;
+  position: absolute;
+  
+}
+
+.chat{
+  background-color: #19114d;
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  left: 20%;
+  top: 65%;
+  border: red solid 5px;
+  border-radius: 5%;
+  text-align: center;
+  color: white;
+
+}
+
+.ulk{
+  width: 40px;
+  height: auto;
+  position: absolute;
+  top: 60%;
+  left: 10%;
+
+}
+
+.ulkp{
+  width: 10%px;
+  font-size:20px;
+  height: auto;
+  position: absolute;
+  top: 65%;
+  left: 25%;
+
+}
+
+
+.ucp{
+    width: 10%px;
+    font-size: 20px;
+    position: absolute;
+    top: 65%;
+    left: 70%;
+
+}
+
+.uc{
+    width: 40px;
+    height: auto;
+    position: absolute;
+    top: 60%;
+    left: 55%;
+
+}
+
+.instrem{
+  position: absolute;
+  background-color: white;
+  height: 5vh;
+  width: auto;
+top: 1%;
+  left: 40%;
+  color: black;
+  background-image: url(search.png);
+  background-position: 3px;
+  padding-left: 35px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+
+}
+
+.stre{
+  color: white;
+  font-size: 40px;
+  left: 3%;
+  position: absolute;
+  border: #19114d 3px;
+  border-radius: 3px;
+
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:"wdth"100;
+}
+
+.Inscreva{
+  border: red 5%;
+  border-radius: 5%;
+  position: absolute;
+  background-color: red;
+  color: black;
+  top: 82%;
+  left: 10%;
+  width: 80%;
+  height: 5vh;
+font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:"wdth"100;
+
+}
+
+
+
+
+
     
+}
