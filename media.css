@@ -34,11 +34,11 @@ padding:5px;
     }
     
     #txtpage1{
-        font-size: 30px;
+        font-size: 15px;
         position: absolute;
         width: 80%;
         height: auto;
-        left: 5%;
+        left: 10%;
         top: 60%;
         color: white; 
         font-family: "Tektur", sans-serif;
@@ -50,15 +50,34 @@ padding:5px;
 
     .botaologin{
         position: absolute;
-        width: 20%;
-        height: 10vh;
+        width: 10%;
+        height: 10%;
         left: 30%;
+        top: 86%;
     }
+
+.login{
+font-size: 40px;
+font-family: "Tektur", sans-serif;
+font-optical-sizing: auto;
+font-weight:600px ;
+font-style: normal;
+font-variation-settings: "wdth" 100;  
+
+
+border: 10px solid black;
+border-radius: 15px;
+background-color: red;
+width: 150px;
+height: 80px;
+color:white
+}
 
     .title{
         position: absolute;
-        left: 30%;
+        left: 20%;
         font-size: 40px;
+        top: 1%;
 
     }
 
@@ -66,16 +85,24 @@ padding:5px;
 
         position: absolute;
         left: 2%;
-        font-size: 30px;
+        font-size: 20px;
+        top: 15%;
 
 
     }
+#dpage2{
+position: absolute;
+font-size: 20px;
+top: 8%;
+left: 1%;
+}
 
     .txtpage2{
         font-size: 15px;
         width: 80%;
         height: 80vh;
         left: 5%;
+        top: 90%;
         
        
     
@@ -100,70 +127,71 @@ padding:5px;
         height: 100vh;
     }
 
-    .corfundo{
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center ;
-        
-        border: black 5px;
-    }
+.corfundo{
+width: 100%;
+height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center ;     
+border: black 5px;
+}
 
 #noticias{
-font-size: 60px;
-left: 5%;
+font-size: 30px;
+left: 1%;
 position: absolute;
+top: 1%;
 }
 
 .imagem1{
- width: 400px;
- height: 600px;
+ width: 300px;
+ height: 290px;
  position: absolute;
- left: 5%;
- border: 5px solid red;    
+ left: 7%;
+ border: 5px solid red;   
+ top: 8%; 
 }
 
 .ntimg{
- width: 100%;
- height: AUTO;
+ width: 300px;
+ height: 150px;
 }
 
 #descriçaoimagem1{
-font-size: 25px;
+font-size: 15px;
 position: absolute;
-top: 40%;
+top: 53%;
 }
 
 #desc2{
-font-size: 20px;
+font-size: 15px;
 position: absolute;
-top: 65%;
+top: 75%;
 }
 
 #desc3{
- font-size: 20px;
+ font-size: 15px;
  position: absolute;
- top: 90%;
+ top: 92%;
 }
 
 
 .imagem2{
  border: 5px solid red;      
- width: 400px;
- height: 600px;
+ width: 300px;
+ height: 270px;
  position: absolute;
- left: 5%;
- top: 55%;
+ left: 7%;
+ top: 56%;
  
 }
 
 #descriçaoimagem2{
 color: white;
 position: absolute;
-font-size: 25px; 
+font-size: 15px; 
 left: 1%;
-top: 45%;
+top: 55%;
 
 font-family: "Open Sans", sans-serif;
 font-optical-sizing: auto;
@@ -175,8 +203,8 @@ font-variation-settings:"wdth"100;
 #des2{
 color: rgb(164, 164, 164);
 position: absolute;
-font-size: 20px;
-top:60%;
+font-size: 15px;
+top:73%;
 left: 1%;
 font-family: "Open Sans", sans-serif;
 font-optical-sizing: auto;
@@ -188,8 +216,8 @@ font-variation-settings:"wdth"100;
 #des3{
 color: rgb(164, 164, 164);
 position: absolute;
-font-size: 20px;
-top: 80%;
+font-size: 15px;
+top: 90%;
 left: 1%;
 font-family: "Open Sans", sans-serif;
 font-optical-sizing: auto;
@@ -200,23 +228,27 @@ font-variation-settings:"wdth"100;
 
 
 .imagem3{
+width: 300px;
+height: 200px;
+position: absolute;
+left: 7%;
+top: 1%;
+border: 5px solid red;
+}
 
- width: 400px;
- height: 500px;
- position: absolute;
- left: 5%;
- top: 1%;
- border: 5px solid red;
- }
+#img3{
+width: 300px;
+height: 120px;
 
+}
 
 
 #descriçaoimagem3{
 color: white;
 position: absolute;
-font-size: 25px; 
+font-size: 10px; 
 left: 1%;
-top: 45%;
+top: 60%;
 
 
 
@@ -230,8 +262,8 @@ font-variation-settings:"wdth"100;
 #d1imagem3{
 color: rgb(164, 164, 164);
 position: absolute;
-font-size: 20px;
-top: 70%;
+font-size: 10px;
+top:75%;
 left: 1%;
 font-family: "Open Sans", sans-serif;
 font-optical-sizing: auto;
@@ -243,21 +275,21 @@ font-variation-settings:"wdth"100;
 position: absolute;
 border: 5px solid red;
 top: 35%;
-left: 5%;
+left: 7%;
 background-color: #0b0825;
-width: 400px;
-height: 500px;
+width: 300px;
+height: 200px;
 }
 #imggw{
-width: 400px;
-height: 200px;
+width: 300px;
+height: 120px;
 }
 
 #d1imagem4{
 color: rgb(164, 164, 164);
 position: absolute;
-font-size: 20px;
-top: 60%;
+font-size: 10px;
+top: 75%;
 right: 5cqmin;
 font-family: "Open Sans", sans-serif;
 font-optical-sizing: auto;
@@ -269,9 +301,9 @@ font-variation-settings:"wdth"100;
 #descriçaoimagem4{
 color: white;
 position: absolute;
-font-size: 25px; 
+font-size: 15px; 
 left: 1%;
-top: 40%;
+top: 60%;
 
 font-family: "Open Sans", sans-serif;
 font-optical-sizing: auto;
@@ -282,28 +314,28 @@ font-variation-settings:"wdth"100;
 }
 
 #imgtw{
-width: 400px;
-height: 200px;
+width: 300px;
+height: 120px;
 }
 
 .imagem5{
 
 position: absolute;
-left: 5%;
-top: 70%;
+left: 7%;
+top: 69%;
 border: 5px solid red;
 background-color: #0b0825;
- width: 400px;
- height: 450px;
+ width: 300px;
+ height: 180px;
 }
 
 
 #descriçaoimagem5{
 color: white;
 position: absolute;
-font-size: 25px; 
+font-size: 10px; 
 left: 1%;
-top: 45%;
+top: 70%;
 
 font-family: "Open Sans", sans-serif;
 font-optical-sizing: auto;
@@ -318,9 +350,9 @@ color: rgb(227, 11, 11);
 position: absolute;
 width: 90%;
 height: 100px;
-top: 75%;
-left: 3%;
-font-size: 150%;
+top: 87%;
+left: 15%;
+font-size: 10px;
 font-family: "Open Sans", sans-serif;
 font-optical-sizing: auto;
 font-weight: weight;
@@ -330,10 +362,10 @@ font-variation-settings:"wdth"100;
 
 #iconeyt{
 position: absolute;
-width: 50px;
-height: 50px;
-top: 63%;
-left: 1%;
+width: 20px;
+height: 20px;
+top: 85%;
+left: 5%;
 }
 
 a:hover{

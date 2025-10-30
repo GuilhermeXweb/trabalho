@@ -79,6 +79,7 @@ font-style: normal;
 font-variation-settings: "wdth" 100;
 }
 
+
 .descriçao{
 position: absolute;
 color: white;
@@ -544,6 +545,8 @@ background-color: #0b0825;
 width: 400px;
 height: 90vh;
 }
+
+
 
 #descriçaoimagem3{
 color: white;
