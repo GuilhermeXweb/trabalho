@@ -664,8 +664,8 @@ font-size: 100%;
 width: 60%;
 height: 60%;
 position: absolute;
-left: 10%;
-top: 10%;
+left: 16%;
+top: 20%;
 }
 
 .img1{
@@ -762,29 +762,29 @@ font-variation-settings:"wdth"100;
 
 .pp{
 position: absolute;
-left: 18%;
-top: 67%;
+left: 25%;
+top: 75%;
 font-size: 80%;
 }
-
 #entrar{
 
     font-size: 80%;
     position: absolute;
-    top: 62%;
+    top: 90%;
 
 }
+
 
 h3{
 position: absolute;
 font-size: 70%;
-left: 20%;
-top: 62%;
+left: 28%;
+top: 72%;
 }
 .botaoentrar{
 position: absolute;
-left: 48%;
-top: 62%;
+left: 55%;
+top: 72%;
 font-size: 100%;
 
 }
