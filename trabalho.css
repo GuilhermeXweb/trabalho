@@ -199,7 +199,7 @@ background-color:red;
 #tgame1,
 #tgame1val,
 #tgame1tip,
-#tgame1es {
+#tgame1e {
   color: white;
   font-size: 30px;
   margin-top: 5%;
@@ -216,7 +216,7 @@ background-color:red;
 #tgame2,
 #tgame2val,
 #tgame2tip,
-#tgame2es {
+#tgame2e {
   color: white;
   font-size: 30px;
   margin-top: 5%;
@@ -343,10 +343,11 @@ background-color:red;
   grid-row: 1;
   width: 100%;
 }
-#tgame2es {
+#tgame2e {
   grid-column: 1;
   grid-row: 2;
-  width: 100%;
+  width: 100px;
+  height: auto;
   justify-items: center;
 }
 #tgame2tip {
@@ -391,9 +392,6 @@ flex-direction: row;
 gap: 1%;
 color: white;
 left: 2%;
-
-
-
 
 top: 60%;
 }
